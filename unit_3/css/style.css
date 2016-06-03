@@ -1,0 +1,28 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	background: ../images/AdobeStock_91445409_WM_lt.jpg;
+	background-size: cover;
+}
+h1 {
+	color: #F27572;
+}
+h2, h4 {
+	color: gray;
+}
+#slogan {
+	font-style: italic;
+	color: #a9cc0d;
+}
+h4 {
+	font-weight: 300;
+}
+ul {
+	text-align: left;
+}
+h3 {
+	color: #DC4744;
+}
+.steps {
+	color: #a9cc0d
+}
