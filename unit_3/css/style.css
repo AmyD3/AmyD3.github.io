@@ -11,7 +11,7 @@ h2, h4 {
 	color: gray;
 }
 #slogan {
-	font-style: italic;
+	font-style: italic; 
 	color: #a9cc0d;
 }
 h4 {
@@ -24,5 +24,6 @@ h3 {
 	color: #DC4744;
 }
 .steps {
+	text-decoration: underline;
 	color: #a9cc0d
 }
