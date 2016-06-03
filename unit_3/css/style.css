@@ -1,8 +1,9 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
-	background: ../images/AdobeStock_91445409_WM_lt.jpg;
-	background-size: cover;
+	background-image: url("../images/Background_image_LT2.jpg");
+	background-size: 1500px;
+	background-repeat: no-repeat;
 }
 h1 {
 	color: #F27572;
@@ -12,7 +13,7 @@ h2, h4 {
 }
 #slogan {
 	font-style: italic; 
-	color: #a9cc0d;
+	color: #DC4744;
 }
 h4 {
 	font-weight: 300;
