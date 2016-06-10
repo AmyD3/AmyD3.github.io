@@ -3,11 +3,23 @@ body {
 	font-family: 'Catamaran', sans-serif;
 	text-align: center;
 }
+nav	{
+	height: 8vh;
+	background-color: black;
+	text-align: left;
+	padding-top: 15px;
+	padding-left: 40px;
+}
+nav a {
+	color: #cccccc;
+	font-weight: 100;
+	margin-right: 20px;
+	text-decoration: none
+}
 hr {
 	width: 1000px;
 	margin: auto;
 }
-
 h1 {
 	color: #F27572;
 }
@@ -16,24 +28,18 @@ h2 {
 	font-weight: 100;
 	line-height: 120%;
 }
-
 h3 {
 	color: #DC4744;
 }
-
 h4 {
 	color: gray;
 	font-weight: 700;
 }
-
-
 ul {
 	text-align: left;
 	padding-left: 10em;
 	padding-top: 1em;
 }
-
-
 #slogan {
 	font-style: italic; 
 	color: #DC4744;
