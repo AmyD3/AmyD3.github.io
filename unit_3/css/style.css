@@ -5,30 +5,41 @@ body {
 	background-size: 1500px;
 	background-repeat: no-repeat;
 }
+hr {
+	width: 1000px;
+}
+
 h1 {
 	color: #F27572;
 }
 h2 {
+	color: #DC4744;
+	font-weight: 300;
+}
+
+h3 {
 	color: #DC4744;
 }
 
 h4 {
 	color: gray;
 }
+
+ul {
+	text-align: left;
+}
+
+
 #slogan {
 	font-style: italic; 
 	color: #DC4744;
 }
-h4 {
-	font-weight: 300;
-}
-ul {
-	text-align: left;
-}
-h3 {
-	color: #DC4744;
-}
+
 .steps {
 	text-decoration: underline;
 	color: #a9cc0d
 }
+
+
+
+
