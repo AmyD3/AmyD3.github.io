@@ -1,12 +1,11 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
-	background-image: url("../images/Background_image_LT2.jpg");
-	background-size: 1500px;
-	background-repeat: no-repeat;
 }
 hr {
 	width: 1000px;
+	margin: auto;
 }
 
 h1 {
@@ -34,7 +33,13 @@ ul {
 	font-style: italic; 
 	color: #DC4744;
 }
-
+#splash {
+	background-image: url("../images/Background_image_LT2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 10em 0;
+	height: 85vh;
+}
 .steps {
 	text-decoration: underline;
 	color: #a9cc0d
