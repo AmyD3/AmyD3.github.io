@@ -16,9 +16,26 @@ nav a {
 	margin-right: 20px;
 	text-decoration: none
 }
+footer	{
+	height: 16vh;
+	background-color: #DC4744;
+	text-align: center;
+	text-decoration-color: white;
+	padding-top: 15px;
+	padding-left: 40px;
+}
+footer a {
+	color: #cccccc;
+	font-weight: 100;
+	margin-right: 20px;
+	text-decoration: none
+}
 hr {
 	width: 1000px;
 	margin: auto;
+}
+h1, h2, h3, p {
+	margin-top: 10px;
 }
 h1 {
 	color: #F27572;
@@ -30,10 +47,15 @@ h2 {
 }
 h3 {
 	color: #DC4744;
+	margin-bottom: 15px;
 }
 h4 {
 	color: gray;
 	font-weight: 700;
+}
+h5 {
+	color: white;
+	font-weight: 100;
 }
 ul {
 	text-align: left;
@@ -51,12 +73,22 @@ ul {
 	padding: 4em 0;
 	height: 65vh;
 }
+#selling {
+	background-color: #D8645B;
+	margin-top: 0;
+}
+#aside {
+	float: right;
+}
 .steps {
 	color: #F27572
 }
 .intro	{
 	padding-left: 9em;
 	padding-right: 9em;
+}
+.footer_text {
+	color: white;
 }
 
 
