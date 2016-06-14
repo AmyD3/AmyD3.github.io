@@ -105,7 +105,7 @@ ul {
 #selling {
 	background-color: #D8645B;
 	padding: 2em;
-	font-color: #FFFFFF;
+	color: #FFFFFF;
 	border-top-style: solid;
 	border-top-color: gray;
 	border-top-width: 1px;
@@ -130,9 +130,9 @@ ul {
 	padding-left: 3em;
 	padding-right: 3em;
 }
-.awesome {
+/*.awesome {
 	color: white;
-}
+}*/
 .steps {
 	color: #F27572;
 	margin-bottom: 1em;
