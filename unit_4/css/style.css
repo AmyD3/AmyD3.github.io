@@ -19,7 +19,6 @@ h2 {
 	color: gray;
 	font-weight: 100;
 	line-height: 120%;
-/*	padding-bottom: 1em;*/
 }
 h3 {
 	font-size: 1.5em;
@@ -68,7 +67,7 @@ nav a {
     border-bottom: none;
 }
 section {
-	padding: 2em;
+	padding: 2em 20em;
 	border-top-style: solid;
 	border-top-color: gray;
 	border-top-width: 1px;
@@ -91,8 +90,7 @@ hr {
 }
 ul {
 	text-align: left;
-	padding-left: 10em;
-	padding-top: 1em;
+	padding: 1em 0 3em 0em;
 }
 #splash {
 	background-image: url("../images/Background_image_LT2.jpg");
@@ -121,6 +119,20 @@ ul {
 }
 #easy {
 	background-color: #F5E9E3;
+}
+.signup {
+	font-weight: 400;
+	color: white;
+	font-style: uppercase;
+	font-size: 1em;
+	padding: .5em;
+	border-style: solid;
+	border-color: silver;
+	border-width: 1px;
+	background-color: rgba(170, 194, 67, 0.6);
+	width: 300px;
+	margin-top: 1.5em;
+/*	align: center;*/
 }
 /*.intro	{
 	padding-left: 3em;
