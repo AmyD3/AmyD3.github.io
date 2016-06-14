@@ -110,7 +110,7 @@ ul {
 	padding: 2em;
 	font-color: #FFFFFF;
 	border-top-style: solid;
-	border-top-color: silver;
+	border-top-color: gray;
 	border-top-width: 1px;
 }
 .awesome {
@@ -133,7 +133,7 @@ ul {
 #services {
 	padding: 2em;
 	border-top-style: solid;
-	border-top-color: silver;
+	border-top-color: gray;
 	border-top-width: 1px;
 }
 .footer_text {
