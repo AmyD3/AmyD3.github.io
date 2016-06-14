@@ -1,13 +1,55 @@
-* { margin:0; padding:0; box-sizing:border-box; }
+* { 
+	margin:0; padding:0; box-sizing:border-box; 
+}
+@import url(https://fonts.googleapis.com/css?family=Catamaran:400,100,700,200);
+
 body {
-	font-family: 'Catamaran', sans-serif;
+	font-family: 'Catamaran', Arial, sans-serif;
 	font-size: 16px; /*1em=16px*/
 	text-align: center;
+}
+h1, h2, h3, p {
+	margin-top: 10px;
+}
+h1 {
+	font-size: 2em;
+	color: #F27572;
+}
+h2 {
+	font-size: 1.7em;
+	color: gray;
+	font-weight: 100;
+	line-height: 120%;
+}
+h3 {
+	font-size: 1.5em;
+	color: #DC4744;
+	margin-bottom: 15px;
+}
+h4 {
+	font-size: 1.3em;
+	color: gray;
+	font-weight: 700;
+}
+h5 {
+	font-size: 1.3em;
+	color: silver;
+	font-weight: 100;
+}
+h6	{
+	font-size: 1em;
+	font-weight: 700;
+}
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	width: 900px;
+	margin: 1em auto;
 }
 a {
 	text-decoration: none;
 	color: #000;
-	border-bottom: .7px solid #000;
+	border-bottom: .4px solid #999999;
 }
 nav	{
 	height: 8vh;
@@ -19,8 +61,10 @@ nav	{
 }
 nav a {
 	color: #cccccc;
-	font-weight: 100;
-	margin-right: 20px;
+    font-weight: 100;
+    margin: 20px;
+    padding: 2em;
+    border-bottom: none;
 }
 footer	{
 	height: 16vh;
@@ -37,36 +81,7 @@ footer a {
 }
 hr {
 	width: 1000px;
-	margin: auto;
-}
-
-h1, h2, h3, p {
-	margin-top: 10px;
-}
-h1 {
-	color: #F27572;
-}
-h2 {
-	color: gray;
-	font-weight: 100;
-	line-height: 120%;
-}
-h3 {
-	color: #DC4744;
-	margin-bottom: 15px;
-}
-h4 {
-	color: gray;
-	font-weight: 700;
-}
-h5 {
-	color: white;
-	font-weight: 100;
-}
-p {
-	line-height: 1.5em;
-	width: 900px;
-	margin: 1em auto;
+	margin: 2em auto;
 }
 ul {
 	text-align: left;
@@ -82,22 +97,30 @@ ul {
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 4em;
-	height: 65vh;
+	height: 75vh;
 	margin: auto;
 }
 #selling {
 	background-color: #D8645B;
-	margin-top: 0;
+	padding: 2em;
 }
 #aside {
 	float: right;
+}
+#testimonial {
+	background-color: black;
+	margin: auto;
+	padding: 4em 10em;
+}
+.why {
+	color: white;
 }
 .steps {
 	color: #F27572
 }
 .intro	{
-	padding-left: 9em;
-	padding-right: 9em;
+	padding-left: 3em;
+	padding-right: 3em;
 }
 .footer_text {
 	color: white;
