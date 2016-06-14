@@ -74,17 +74,17 @@ section {
 	border-top-width: 1px;
 }
 footer	{
-	height: 16vh;
+	height: auto;
 	background-color: #DC4744;
-	text-align: center;
 	font-color: white;
-	padding-top: 15px;
-	padding-left: 40px;
+	image-rendering: 50%;
+	text-align: left;
+	padding: 2em 5em;
 }
 footer a {
 	color: #cccccc;
 	font-weight: 100;
-	margin-right: 3em;
+	border-bottom: none;
 }
 hr {
 	width: 1000px;
@@ -98,7 +98,7 @@ ul {
 	background-image: url("../images/Background_image_LT2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 4em;
+	padding: 4em 12em;
 	height: 75vh;
 	margin: auto;
 }
@@ -135,6 +135,8 @@ ul {
 }
 .footer_text {
 	color: white;
+	font-size: 1em;
+	font-weight: 100;
 }
 
 
