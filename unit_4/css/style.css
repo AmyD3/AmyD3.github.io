@@ -68,6 +68,12 @@ nav a {
     padding: 2em;
     border-bottom: none;
 }
+section {
+	padding: 2em;
+	border-top-style: solid;
+	border-top-color: gray;
+	border-top-width: 1px;
+}
 footer	{
 	height: 16vh;
 	background-color: #DC4744;
@@ -104,11 +110,7 @@ ul {
 
 #selling {
 	background-color: #D8645B;
-	padding: 2em;
 	color: #FFFFFF;
-	border-top-style: solid;
-	border-top-color: gray;
-	border-top-width: 1px;
 }
 #testimonial {
 	background-color: black;
@@ -117,14 +119,7 @@ ul {
 	color: silver;
 }
 #easy {
-	padding: 2em;
 	background-color: #F5E9E3;
-}
-#services {
-	padding: 2em;
-	border-top-style: solid;
-	border-top-color: gray;
-	border-top-width: 1px;
 }
 .intro	{
 	padding-left: 3em;
