@@ -101,10 +101,7 @@ ul {
 	font-style: italic; 
 	color: #DC4744;
 }
-.intro	{
-	padding-left: 3em;
-	padding-right: 3em;
-}
+
 #selling {
 	background-color: #D8645B;
 	padding: 2em;
@@ -112,9 +109,6 @@ ul {
 	border-top-style: solid;
 	border-top-color: gray;
 	border-top-width: 1px;
-}
-.awesome {
-	color: white;
 }
 #testimonial {
 	background-color: black;
@@ -126,15 +120,22 @@ ul {
 	padding: 2em;
 	background-color: #F5E9E3;
 }
-.steps {
-	color: #F27572;
-	margin-bottom: 1em;
-}
 #services {
 	padding: 2em;
 	border-top-style: solid;
 	border-top-color: gray;
 	border-top-width: 1px;
+}
+.intro	{
+	padding-left: 3em;
+	padding-right: 3em;
+}
+.awesome {
+	color: white;
+}
+.steps {
+	color: #F27572;
+	margin-bottom: 1em;
 }
 .footer_text {
 	color: white;
