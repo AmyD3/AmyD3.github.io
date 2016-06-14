@@ -19,12 +19,13 @@ h2 {
 	color: gray;
 	font-weight: 100;
 	line-height: 120%;
+	padding-bottom: 1em;
 }
 h3 {
 	font-size: 1.5em;
-	color: #DC4744;
+	color: #FFFFFF;
 	margin-bottom: 15px;
-		font-weight: 700;
+	font-weight: 700;
 }
 h4 {
 	font-size: 1.3em;
@@ -53,17 +54,17 @@ a {
 	border-bottom: .4px solid #999999;
 }
 nav	{
-	height: 8vh;
+	height: 10vh;
 	background-color: black;
 	text-align: left;
-	padding-top: 15px;
-	padding-left: 40px;
+	padding-top: 3em;
+	padding-left: 4em;
 	text-transform: uppercase;
 }
 nav a {
 	color: #cccccc;
     font-weight: 100;
-    margin: 20px;
+    margin-top: 13em;
     padding: 2em;
     border-bottom: none;
 }
@@ -71,14 +72,14 @@ footer	{
 	height: 16vh;
 	background-color: #DC4744;
 	text-align: center;
-	text-decoration-color: white;
+	font-color: white;
 	padding-top: 15px;
 	padding-left: 40px;
 }
 footer a {
 	color: #cccccc;
 	font-weight: 100;
-	margin-right: 20px;
+	margin-right: 3em;
 }
 hr {
 	width: 1000px;
@@ -107,9 +108,13 @@ ul {
 #selling {
 	background-color: #D8645B;
 	padding: 2em;
-	font-color: white;
-	border-top-color: #000;
-	border-top-width: 3em;
+	font-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-color: silver;
+	border-top-width: 1px;
+}
+.awesome {
+	color: white;
 }
 #testimonial {
 	background-color: black;
@@ -127,6 +132,9 @@ ul {
 }
 #services {
 	padding: 2em;
+	border-top-style: solid;
+	border-top-color: silver;
+	border-top-width: 1px;
 }
 .footer_text {
 	color: white;
