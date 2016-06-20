@@ -56,7 +56,7 @@ a {
 	border-bottom: .4px solid #999999;
 }
 nav	{
-	height: 8vh;
+	height: 6vh;
 	background-color: black;
 	text-align: left;
 	padding-top: 1em;
@@ -107,7 +107,7 @@ ul {
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 4em 12em;
-	height: 55vh;
+	height: 65vh;
 }
 #slogan {
 	font-style: italic; 
@@ -120,7 +120,7 @@ ul {
 }
 #selling h2 {
 	color: #FFFFFF;
-/*	padding-bottom: 1em;*/
+	padding-bottom: 1.5em;
 }
 #testimonial {
 	background-color: black;
@@ -135,7 +135,11 @@ ul {
 #easy {
 	background-color: #F5E9E3;
 }
-
+#icons {
+	width: 200px;
+	float: left;
+	margin-bottom: 1em;
+}
 .signup {
 	font-weight: 400;
 	color: white;
@@ -148,7 +152,6 @@ ul {
 	background-color: rgba(170, 194, 67, 0.6);
 	margin-top: 2em;
 	display: inline-block;
-	/*width: 200px;*/
 }
 .steps {
 	color: #F27572;
@@ -163,7 +166,6 @@ ul {
 	display: block;
 	content: " ";
 	clear: both;
-
 	height: 0;
 	font-size: 0;
 	visibility; hidden;
