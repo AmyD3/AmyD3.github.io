@@ -35,8 +35,9 @@ h4 {
 }
 h5 {
 	font-size: 1.3em;
-	color: silver;
+	color: #000;
 	font-weight: 100;
+	margin: 1em 0;
 }
 h6	{
 	font-size: 1em;
@@ -47,6 +48,7 @@ p {
 	line-height: 1.5em;
 	margin: 1em auto;
 	font-weight: 400;
+	color: silver;
 }
 a {
 	text-decoration: none;
@@ -73,10 +75,8 @@ nav a:hover {
 	background-color: #DC4744;
 }
 section {
-	padding: 2em 10em;
-	border-top-style: solid;
-	border-top-color: gray;
-	border-top-width: 1px;
+	padding: 2em 20em;
+	border-top: 1px gray solid;
 }
 footer	{
 	height: auto;
@@ -101,15 +101,13 @@ ul {
 #wrapper {
 	width: 1260px;
 	margin: 0 auto;
-	/*padding: 4em 12em;*/
 }
 #splash {
 	background-image: url("../images/Background_image_LT2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 4em 12em;
-	height: 80vh;
-	margin: auto;
+	height: 55vh;
 }
 #slogan {
 	font-style: italic; 
@@ -122,17 +120,22 @@ ul {
 }
 #selling h2 {
 	color: #FFFFFF;
-	padding-bottom: 1em;
+/*	padding-bottom: 1em;*/
 }
 #testimonial {
 	background-color: black;
-	margin: auto;/*
-	padding: 4em 10em;*/
+	margin: auto;
+}
+#testimonial h5 {
 	color: silver;
+	font-weight: 200;
+	font-size: 1.4em;
+	line-height: 1.3em;
 }
 #easy {
 	background-color: #F5E9E3;
 }
+
 .signup {
 	font-weight: 400;
 	color: white;
@@ -143,17 +146,10 @@ ul {
 	border-color: silver;
 	border-width: 1px;
 	background-color: rgba(170, 194, 67, 0.6);
-	margin-top: .5em;
+	margin-top: 2em;
 	display: inline-block;
 	/*width: 200px;*/
 }
-/*.intro	{
-	padding-left: 3em;
-	padding-right: 3em;
-}*/
-/*.awesome {
-	color: white;*/
-/*}*/
 .steps {
 	color: #F27572;
 	margin-bottom: 1em;
