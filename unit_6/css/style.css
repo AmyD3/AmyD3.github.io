@@ -56,21 +56,28 @@ a {
 	border-bottom: .4px solid #999999;
 }
 nav	{
-	height: 6vh;
-	background-color: black;
-	text-align: left;
-	padding-top: 1em;
-	padding-left: 2em;
-	text-transform: uppercase;
+/*	height: 6vh;*/
+	background-color: #653130;
+    text-align: right;
+    padding-top: 3em;
+    padding-left: 2em;
+    text-transform: uppercase;
 }
 nav a {
 	color: #cccccc;
     font-weight: 100;
     border-bottom: none;
-	display: block;
-	float: left;
+	display: inline-block;
+	/*float: left;*/
 	padding: .2em 2em;
+/*	text-align: right;*/
 }
+
+nav img {
+	float: left;
+	padding: 1em;
+}
+
 nav a:hover {
 	background-color: #DC4744;
 }
