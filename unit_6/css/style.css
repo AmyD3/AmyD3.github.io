@@ -21,6 +21,7 @@ h2 {
 	color: gray;
 	font-weight: 100;
 	line-height: 120%;
+    margin: auto;
 }
 h3 {
 	font-size: 1.5em;
@@ -33,7 +34,7 @@ h4 {
 	color: gray;
 	font-weight: 700;
 }
-h5 {
+p {
 	font-size: 1.3em;
 	color: #000;
 	font-weight: 100;
@@ -41,9 +42,9 @@ h5 {
 }
 h6	{
 	font-size: 1em;
-	font-weight: 700;
+	font-weight: 300;
 }
-p {
+h5 {
 	font-size: 1em;
 	line-height: 1.5em;
 	margin: 1em auto;
@@ -55,22 +56,23 @@ a {
 	color: #000;
 	border-bottom: .4px solid #999999;
 }
+header img {
+	float: left;
+	margin: 2px;
+}
 nav	{
-/*	height: 6vh;*/
-	background-color: #653130;
+	background-color: #232323;
     text-align: right;
-    padding-top: 3em;
+    padding-top: 6em;
     padding-left: 2em;
     text-transform: uppercase;
 }
 nav a {
-	color: #cccccc;
+	color: silver;
     font-weight: 100;
     border-bottom: none;
 	display: inline-block;
-	/*float: left;*/
 	padding: .2em 2em;
-/*	text-align: right;*/
 }
 
 nav img {
@@ -79,7 +81,7 @@ nav img {
 }
 
 nav a:hover {
-	background-color: #DC4744;
+	background-color: #d8645b;
 }
 section {
 	padding: 2em 10em;
@@ -93,6 +95,7 @@ footer	{
 	text-align: left;
 	padding: 2em 5em;
 }
+
 footer a {
 	color: #cccccc;
 	font-weight: 100;
@@ -103,7 +106,7 @@ hr {
 }
 ul {
 	text-align: left;
-	padding: 1em 0 3em 0em;
+	padding: 1em 0 3em 1em;
 }
 
 #wrapper {
@@ -114,41 +117,56 @@ ul {
 	background-image: url("../images/Background_image_LT2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 8em 0;
+	padding: 6em 0;
 }
+
+#splash h2 {
+    width: 31em;
+}
+
 #slogan {
-	font-style: italic; 
+/*	font-style: italic; */
 	color: #DC4744;
 	padding-top:1em;
 	padding-bottom: .5em;
 }
+
 #selling {
 	background-color: #D8645B;
 }
 #selling h2 {
-	color: #FFFFFF;
+	color: white;
 	padding-bottom: 1.5em;
 }
+
 #testimonial {
 	background-color: black;
 	margin: auto;
 }
-#testimonial h5 {
+
+#testimonial p {
 	color: silver;
 	font-weight: 200;
 	font-size: 1.4em;
 	line-height: 1.3em;
 }
+
+#testimonial h6 {
+	color: silver;
+}
+
 #easy {
 	background-color: #F5E9E3;
 }
-#icons {
-	width: 200px;
-	/*margin: 0, 10em, 1em, 10em;*/
-	margin-bottom: 1em;
+
+.icons {
+	width: 20%;
+	margin: 0em 1em 1em 1em;
+/*	margin-bottom: 1em;*/
 	display: inline-block;
 	vertical-align: top;
 }
+
 .signup {
 	font-weight: 400;
 	color: white;
@@ -158,14 +176,58 @@ ul {
 	border-style: solid;
 	border-color: silver;
 	border-width: 1px;
-	background-color: rgba(170, 194, 67, 0.6);
+	background-color: rgba(170, 194, 67, 0.8);
 	margin-top: 2em;
 	display: inline-block;
 }
+
 .steps {
 	color: #F27572;
 	margin-bottom: 1em;
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin: 0;
 }
+
+#one_two_three {
+	padding: 0;
+	background-color: #F5E9E3;
+	border-top: none;
+}
+
+#left h2 {
+	text-align: left;
+	margin-right: 3em;
+}
+
+#left {
+/*	background-color: #E582A2;*/
+/*	border: 1px black solid;*/
+	padding: 20px 20px 0px 20px;
+	float: left;
+	width: 50%
+}
+
+#right h2 {
+	text-align: left;
+}
+
+#right {
+/*	background-color: #E55B88;*/
+/*	border: 1px black solid;*/
+	padding: 20px;
+	float: right;
+	width: 50%;
+}
+
+.join {
+	padding: 0em 0em 2em 0em;
+	border: none;
+	padding-top: 0em;
+/*	background-color: #999;*/
+}
+
 .footer_text {
 	color: white;
 	font-size: 1em;
