@@ -196,6 +196,16 @@ ul {
 	border-top: none;
 }
 
+#details {
+	border-bottom: none;
+	border: none;
+	background-color: #F5E9E3;
+}
+
+.two_column {
+	border-top: none;
+}
+
 #left h2 {
 	text-align: left;
 	margin-right: 3em;
