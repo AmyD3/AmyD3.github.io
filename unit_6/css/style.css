@@ -75,7 +75,7 @@ nav a:hover {
 	background-color: #DC4744;
 }
 section {
-	padding: 2em 20em;
+	padding: 2em 10em;
 	border-top: 1px gray solid;
 }
 footer	{
@@ -98,6 +98,7 @@ ul {
 	text-align: left;
 	padding: 1em 0 3em 0em;
 }
+
 #wrapper {
 	width: 1260px;
 	margin: 0 auto;
@@ -138,7 +139,9 @@ ul {
 #icons {
 	width: 200px;
 	float: left;
+	/*margin: 0, 10em, 1em, 10em;*/
 	margin-bottom: 1em;
+/*	align-items: center;*/
 }
 .signup {
 	font-weight: 400;
