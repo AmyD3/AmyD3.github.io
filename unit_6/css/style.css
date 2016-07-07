@@ -186,9 +186,13 @@ ul {
 	margin-bottom: 1em;
 	display: inline-block;
 	vertical-align: top;
-	width: 30%;
-	margin: 0;
+	width: 33%;
+/*	margin: 0;*/
 }
+
+.steps img {
+width: 100%
+} 
 
 #one_two_three {
 	padding: 0;
