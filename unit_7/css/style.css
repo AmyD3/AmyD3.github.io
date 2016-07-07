@@ -60,6 +60,7 @@ header img {
 	float: left;
 	margin: .5em;
 	width: 30%;
+	min-width: 300px;
 }
 nav	{
 	background-color: #232323;
@@ -85,7 +86,7 @@ nav a:hover {
 	background-color: #d8645b;
 }
 section {
-	padding: 2em 10em;
+	padding: 2% 3%;
 	border-top: 1px gray solid;
 }
 footer	{
@@ -127,7 +128,7 @@ ul {
 }
 
 #splash h2 {
-    width: 31em;
+    width: 75%;
 }
 
 #slogan {
@@ -138,6 +139,7 @@ ul {
 
 #selling {
 	background-color: #D8645B;
+	padding: 5%;
 }
 #selling h2 {
 	color: white;
@@ -147,6 +149,7 @@ ul {
 #testimonial {
 	background-color: black;
 	margin: auto;
+	padding: 4% 15%;
 }
 
 #testimonial p {
@@ -169,6 +172,7 @@ ul {
 	margin: 0em 1em 1em 1em;
 	display: inline-block;
 	vertical-align: top;
+	min-width: 100px;
 }
 
 .signup {
@@ -264,5 +268,22 @@ width: 100%
 	visibility; hidden;
 }
 
+@media only screen and (min-width: 1800px) {
+	body {
+		font-size: 24px;
+	}
+	#wrapper {
+		width: 1600px;
+	}
 
+@media only screen and (max-width: 1160px) {
+	nav {
+		display: block;
+		text-align: left;
+	}
 
+@media only screen and (max-width: 875px) {
+	h3 {
+		font-size: 1em;
+		font-weight: 400;
+	}
