@@ -91,7 +91,7 @@ nav a:hover {
 	background-color: #d8645b;
 }
 section {
-	padding: 2% 3%;
+	padding: 2% 10%;
 	border-top: 1px gray solid;
 }
 footer	{
@@ -170,6 +170,10 @@ ul {
 
 #easy {
 	background-color: #F5E9E3;
+}
+
+#details p {
+	padding: 4% 10%;
 }
 
 .icons {
