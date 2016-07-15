@@ -94,10 +94,10 @@ label{
 
 nav a:hover {
 	background-color: #d8645b;
-	/*-webkit-transition:color ease-in-out .5s;
+	-webkit-transition:color ease-in-out .5s;
 	-moz-transition:color ease-in-out .5s;
 	-o-transition:color ease-in-out .5s;
-	transition:color ease-in-out .5s;*/
+	transition:color ease-in-out .5s;
 }
 section {
 	padding: 2% 10%;
@@ -210,6 +210,19 @@ ul {
 	margin-top: 2em;
 	display: inline-block;
 }
+
+.signin {
+	font-weight: 400;
+	color: white;
+	font-style: uppercase;
+	font-size: 1em;
+	padding: .5em 2em;
+	border: 3px solid silver;
+	background-color: rgba(170, 194, 67, 0.8);
+	margin-top: 2em;
+	display: inline-block;
+}
+
 
 .steps {
 	color: #F27572;
