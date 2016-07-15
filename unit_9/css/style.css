@@ -204,7 +204,7 @@ ul {
 	color: white;
 	font-style: uppercase;
 	font-size: 1em;
-	padding: .5em 2em;
+	padding: .5em 4em;
 	border: 3px solid silver;
 	background-color: rgba(170, 194, 67, 0.8);
 	margin-top: 2em;
@@ -216,11 +216,13 @@ ul {
 	color: white;
 	font-style: uppercase;
 	font-size: 1em;
-	padding: .5em 2em;
+	padding: .5em 4em;
 	border: 3px solid silver;
-	background-color: rgba(170, 194, 67, 0.8);
+	background-color: rgba(220, 71, 68, 0.8);
 	margin-top: 2em;
+	margin-left: 2em;
 	display: inline-block;
+	display:none;
 }
 
 
@@ -354,7 +356,7 @@ width: 100%
 	}
 
 	#splash h2 {
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 
 	#slogan {
@@ -376,6 +378,16 @@ width: 100%
 	}
 	#toggle:checked + nav a {
 		display: block;
+	}
+
+	.signup {
+		padding: .5em 2em;
+	}
+
+	.signin {
+		display: inline-block;
+		margin: auto;
+		padding: .5em 2em;
 	}
 
 }
@@ -424,6 +436,7 @@ width: 100%
 	footer img {
 		width: 200px;
 	}
+
 }
 	
 }
