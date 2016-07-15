@@ -71,7 +71,7 @@ nav	{
 	background-color: #232323;
     float: right;
     padding-top: 5em;
-    padding-left: 2em;
+ /*   padding-left: 2em;*/
     text-transform: uppercase;
 }
 nav a {
@@ -80,6 +80,10 @@ nav a {
     border-bottom: none;
 	display: inline-block;
 	padding: .2em 2em;
+	-webkit-transition:color ease-in-out .5s;
+	-moz-transition:color ease-in-out .5s;
+	-o-transition:color ease-in-out .5s;
+	transition:color ease-in-out .5s;
 }
 
 label{
@@ -88,7 +92,7 @@ label{
     font-weight: 100;
     border-bottom: none;
 	display: inline-block;
-	padding: .2em 2em;
+	padding: .2em;
 	text-transform: uppercase;
 	display: none;
 }
@@ -363,7 +367,7 @@ width: 100%
 	}
 	#toggle:checked + nav a {
 		display: block;
-		padding-left: 0;
+	/*	padding-left: 0;*/
 	}
 
 }
