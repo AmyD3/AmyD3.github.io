@@ -191,6 +191,11 @@ ul {
 	padding: 4% 5%;
 }
 
+#scheduler h1 {
+	padding-bottom: 2em;
+	text-align: left;
+}
+
 .icons {
 	width: 20%;
 	margin: 0em 1em 1em 1em;
