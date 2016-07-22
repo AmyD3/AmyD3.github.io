@@ -17,14 +17,14 @@ h1 {
 	font-weight: 700;
 }
 h2 {
-	font-size: 1.7em;
+	font-size: 1.3em;
 	color: gray;
 	font-weight: 100;
-	line-height: 120%;
+	line-height: 130%;
     margin: auto;
 }
 h3 {
-	font-size: 1.5em;
+	font-size: 1.2em;
 	color: #FFFFFF;
 	margin-bottom: 1.2em;
 	font-weight: 700;
@@ -35,7 +35,7 @@ h4 {
 	font-weight: 700;
 }
 p {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	color: #000;
 	font-weight: 100;
 	margin: 1em 0;
@@ -79,6 +79,10 @@ nav a {
     border-bottom: none;
 	display: inline-block;
 	padding: .2em 2em;
+	-webkit-transition:background-color ease-in-out .5s;
+	-moz-transition:background-color ease-in-out .5s;
+	-o-transition:background-color ease-in-out .5s;
+	transition:background-color ease-in-out .5s;
 }
 
 label{
@@ -94,10 +98,6 @@ label{
 
 nav a:hover {
 	background-color: #d8645b;
-	-webkit-transition:color ease-in-out .5s;
-	-moz-transition:color ease-in-out .5s;
-	-o-transition:color ease-in-out .5s;
-	transition:color ease-in-out .5s;
 }
 section {
 	padding: 2% 10%;
@@ -147,7 +147,7 @@ ul {
 }
 
 #splash h2 {
-    width: 75%;
+    width: 65%;
 }
 
 #slogan {
@@ -174,7 +174,7 @@ ul {
 #testimonial p {
 	color: silver;
 	font-weight: 200;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	line-height: 1.3em;
 }
 
@@ -197,15 +197,16 @@ ul {
 	display: inline-block;
 	vertical-align: top;
 	min-width: 100px;
+	max-width: 180px;
 }
 
 .signup {
 	font-weight: 400;
 	color: white;
 	font-style: uppercase;
-	font-size: 1em;
-	padding: .5em 4em;
-	border: 3px solid silver;
+	font-size: 1.2em;
+	padding: .5em 2em;
+	border: 1px solid gray;
 	background-color: rgba(170, 194, 67, 0.8);
 	margin-top: 2em;
 	display: inline-block;
@@ -215,9 +216,9 @@ ul {
 	font-weight: 400;
 	color: white;
 	font-style: uppercase;
-	font-size: 1em;
-	padding: .5em 4em;
-	border: 3px solid silver;
+	font-size: 1.2em;
+	padding: .5em 2em;
+	border: 1px solid gray;
 	background-color: rgba(220, 71, 68, 0.8);
 	margin-top: 2em;
 	margin-left: 2em;
@@ -241,6 +242,27 @@ ul {
 
 .steps img {
 width: 100%
+} 
+
+.steps p {
+  display: none;  
+  /*height:100%;
+  width:100%;*/
+  /*background-color:rgba(0,0,0,0.5);*/
+ /* position:absolute;*/
+  /*top:0;
+  left:0;
+  font-family:sans-serif;*/
+  /*text-align:center;
+  color:white;
+  font-size:3em;
+  font-weight: 700;*/
+  /*padding:30% 0 0;
+  margin:0;*/
+}
+
+.steps img:hover > p {
+	display: block;
 } 
 
 #one_two_three {
@@ -332,6 +354,13 @@ width: 100%
 	}
 }
 
+@media only screen and (max-width: 1050px) {
+	#wrapper {
+		margin: 0;
+		width: 100%;
+	}
+
+
 @media only screen and (max-width: 860px) {
 	h3 {
 		font-size: 1.2em;
@@ -363,6 +392,7 @@ width: 100%
 		padding-top: .5em;
 		line-height: 1em;
 	}
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -436,7 +466,5 @@ width: 100%
 	footer img {
 		width: 200px;
 	}
-
-}
 	
 }

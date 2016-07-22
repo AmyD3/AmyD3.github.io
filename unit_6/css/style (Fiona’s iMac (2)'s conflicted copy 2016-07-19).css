@@ -1,0 +1,215 @@
+@import url(https://fonts.googleapis.com/css?family=Catamaran:400,100,700,200);
+
+* { 
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box; 
+}
+body {
+	font-family: 'Catamaran', Arial, sans-serif;
+	font-size: 16px; /*1em=16px*/
+	text-align: center;
+	line-height: 1.8em;
+}
+h1 {
+	font-size: 2em;
+	color: #F27572;
+	font-weight: 700;
+}
+h2 {
+	font-size: 1.7em;
+	color: gray;
+	font-weight: 100;
+	line-height: 120%;
+    width: 31em;
+    margin: auto;
+}
+h3 {
+	font-size: 1.5em;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+h4 {
+	font-size: 1.3em;
+	color: gray;
+	font-weight: 700;
+}
+p {
+	font-size: 1.3em;
+	color: #000;
+	font-weight: 100;
+	margin: 1em 0;
+}
+h6	{
+	font-size: 1em;
+	font-weight: 300;
+}
+h5 {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 1em auto;
+	font-weight: 400;
+	color: silver;
+}
+a {
+	text-decoration: none;
+	color: #000;
+	border-bottom: .4px solid #999999;
+}
+header img {
+	float: left;
+	margin: 2px;
+}
+nav	{
+/*	height: 6vh;*/
+	background-color: #232323;
+    text-align: right;
+    padding-top: 6em;
+    padding-left: 2em;
+    text-transform: uppercase;
+}
+nav a {
+	color: silver;
+    font-weight: 100;
+    border-bottom: none;
+	display: inline-block;
+	/*float: left;*/
+	padding: .2em 2em;
+/*	text-align: right;*/
+}
+
+nav img {
+	float: left;
+	padding: 1em;
+}
+
+nav a:hover {
+	background-color: #d8645b;
+}
+section {
+	padding: 2em 10em;
+	border-top: 1px gray solid;
+}
+footer	{
+	height: auto;
+	background-color: #DC4744;
+	font-color: white;
+	image-rendering: 50%;
+	text-align: left;
+	padding: 2em 5em;
+}
+footer a {
+	color: #cccccc;
+	font-weight: 100;
+	border-bottom: none;
+}
+hr {
+	width: 1000px;
+}
+ul {
+	text-align: left;
+	padding: 1em 0 3em 0em;
+}
+
+#wrapper {
+	width: 1260px;
+	margin: 0 auto;
+}
+#splash {
+	background-image: url("../images/Background_image_LT2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 6em 0;
+}
+#slogan {
+/*	font-style: italic; */
+	color: #DC4744;
+	padding-top:1em;
+	padding-bottom: .5em;
+}
+#selling {
+	background-color: #D8645B;
+}
+#selling h2 {
+	color: white;
+	padding-bottom: 1.5em;
+}
+#testimonial {
+	background-color: black;
+	margin: auto;
+}
+#testimonial p {
+	color: silver;
+	font-weight: 200;
+	font-size: 1.4em;
+	line-height: 1.3em;
+}
+
+#testimonial h6 {
+	color: silver;
+}
+#easy {
+	background-color: #F5E9E3;
+}
+.icons {
+	width: 200px;
+	margin: 0em 1em 1em 1em;
+/*	margin-bottom: 1em;*/
+	display: inline-block;
+	vertical-align: top;
+}
+
+.signup {
+	font-weight: 400;
+	color: white;
+	font-style: uppercase;
+	font-size: 1em;
+	padding: .5em 2em;
+	border-style: solid;
+	border-color: silver;
+	border-width: 1px;
+	background-color: rgba(170, 194, 67, 0.6);
+	margin-top: 2em;
+	display: inline-block;
+}
+
+.steps {
+	color: #F27572;
+	margin-bottom: 1em;
+}
+
+/*.services {
+	display: inline;*/
+}
+
+#two_column {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+}
+#left {
+	float: left;
+/*	column-width: 50%*/
+}
+
+#right {
+	float: right;
+}
+
+.footer_text {
+	color: white;
+	font-size: 1em;
+	font-weight: 100;
+}
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+	visibility; hidden;
+}
+
+
+
