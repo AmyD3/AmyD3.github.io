@@ -458,6 +458,11 @@ width:100%;
 	#left h2 {
 		margin-right: 0;
 	}
+
+	.two_column: {
+		padding-left: 15%;
+	}
+
 }
 
 
